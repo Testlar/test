@@ -1,0 +1,53 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.container{
+    padding: 15px;
+}
+.container .top
+{
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+.top input
+{
+    width: 90%;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.top #qidirish
+{
+    color: white;
+    padding: 10px;
+    overflow: none;
+    background-color: blue;
+    border:2px solid white;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+}
+.content
+{
+    /* padding: 20px; */
+}
+.content table
+{
+    border: 2px solid black;
+}
+table tr td
+{
+    border: 2px solid black;
+    padding: 5px;
+}
+/* @media screen and (max-width :770px) {
+    .content
+    {
+        padding: 0px;
+    }
+    
+} */
