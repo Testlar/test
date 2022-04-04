@@ -6,7 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <style>
+        a {
+          background-color: red;
+          box-shadow: 0 5px 0 darkred;
+          color: white;
+          padding: 1em 1.5em;
+          position: relative;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+
+        a:hover {
+          background-color: #ce0606;
+        }
+
+        a:active {
+          box-shadow: none;
+          top: 5px;
+        }
+    </style>
+ </head>
 <body>
     <div class="container">
         <div class="top">
@@ -15,17 +35,24 @@
         </div>
         <div class="content">
             <table>
-               
+               <tr>
+                    <td>
+                        <a href="https://testlar.github.io/test/test.pdf">Testlar</a>
+                    </td> 
+                   <td>
+                        <a href="https://testlar.github.io/test/slaydlar.pdf">Slaydlar</a>
+                    </td> 
+               </tr>
             </table>    
         </div>
     </div>
     
     <script src="jquery.js"></script>
     <script>
-        $(document).ready(function(){
-            let url='https://baxtiyorbohodirov.github.io/test/test.pdf';
-            window.location.href=url;
-        });
+//         $(document).ready(function(){
+//             let url='https://baxtiyorbohodirov.github.io/test/test.pdf';
+//             window.location.href=url;
+//         });
     </script>
     <script src="java.js"></script>
 
